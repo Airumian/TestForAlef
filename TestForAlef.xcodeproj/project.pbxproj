@@ -13,12 +13,12 @@
 		F7A900B326B1A817002C9749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A900B126B1A817002C9749 /* Main.storyboard */; };
 		F7A900B526B1A81B002C9749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A900B426B1A81B002C9749 /* Assets.xcassets */; };
 		F7A900B826B1A81B002C9749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A900B626B1A81B002C9749 /* LaunchScreen.storyboard */; };
-		F7A900C726B1B95D002C9749 /* ChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A900C526B1B95D002C9749 /* ChildTableViewCell.swift */; };
-		F7A900C826B1B95D002C9749 /* ChildTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A900C626B1B95D002C9749 /* ChildTableViewCell.xib */; };
+		F7A900C726B1B95D002C9749 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A900C526B1B95D002C9749 /* TextFieldTableViewCell.swift */; };
+		F7A900C826B1B95D002C9749 /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A900C626B1B95D002C9749 /* TextFieldTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7A900A826B1A817002C9749 /* testForAlef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testForAlef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A900A826B1A817002C9749 /* TestForAlef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForAlef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A900AB26B1A817002C9749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A900AD26B1A817002C9749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F7A900AF26B1A817002C9749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +26,8 @@
 		F7A900B426B1A81B002C9749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A900B726B1A81B002C9749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7A900B926B1A81B002C9749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7A900C526B1B95D002C9749 /* ChildTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTableViewCell.swift; sourceTree = "<group>"; };
-		F7A900C626B1B95D002C9749 /* ChildTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildTableViewCell.xib; sourceTree = "<group>"; };
+		F7A900C526B1B95D002C9749 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		F7A900C626B1B95D002C9749 /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,10 +41,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F15CBD026B3337400FF3179 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F7A900B126B1A817002C9749 /* Main.storyboard */,
+				F7A900B626B1A81B002C9749 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5F15CBD126B3339C00FF3179 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7A900AF26B1A817002C9749 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5F15CBD226B333C700FF3179 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F7A900B426B1A81B002C9749 /* Assets.xcassets */,
+				F7A900B926B1A81B002C9749 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5F15CBD326B333DD00FF3179 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				5F15CBD426B333E300FF3179 /* TableViewCells */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		5F15CBD426B333E300FF3179 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5F15CBD526B333EE00FF3179 /* TextFieldTableViewCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		5F15CBD526B333EE00FF3179 /* TextFieldTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7A900C526B1B95D002C9749 /* TextFieldTableViewCell.swift */,
+				F7A900C626B1B95D002C9749 /* TextFieldTableViewCell.xib */,
+			);
+			path = TextFieldTableViewCell;
+			sourceTree = "<group>";
+		};
 		F7A9009F26B1A817002C9749 = {
 			isa = PBXGroup;
 			children = (
-				F7A900AA26B1A817002C9749 /* testForAlef */,
+				F7A900AA26B1A817002C9749 /* TestForAlef */,
 				F7A900A926B1A817002C9749 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,33 +103,30 @@
 		F7A900A926B1A817002C9749 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7A900A826B1A817002C9749 /* testForAlef.app */,
+				F7A900A826B1A817002C9749 /* TestForAlef.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7A900AA26B1A817002C9749 /* testForAlef */ = {
+		F7A900AA26B1A817002C9749 /* TestForAlef */ = {
 			isa = PBXGroup;
 			children = (
 				F7A900AB26B1A817002C9749 /* AppDelegate.swift */,
 				F7A900AD26B1A817002C9749 /* SceneDelegate.swift */,
-				F7A900AF26B1A817002C9749 /* ViewController.swift */,
-				F7A900B126B1A817002C9749 /* Main.storyboard */,
-				F7A900B426B1A81B002C9749 /* Assets.xcassets */,
-				F7A900B626B1A81B002C9749 /* LaunchScreen.storyboard */,
-				F7A900B926B1A81B002C9749 /* Info.plist */,
-				F7A900C526B1B95D002C9749 /* ChildTableViewCell.swift */,
-				F7A900C626B1B95D002C9749 /* ChildTableViewCell.xib */,
+				5F15CBD326B333DD00FF3179 /* UILayer */,
+				5F15CBD126B3339C00FF3179 /* ViewControllers */,
+				5F15CBD026B3337400FF3179 /* Storyboards */,
+				5F15CBD226B333C700FF3179 /* SupportingFiles */,
 			);
-			path = testForAlef;
+			path = TestForAlef;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7A900A726B1A817002C9749 /* testForAlef */ = {
+		F7A900A726B1A817002C9749 /* TestForAlef */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7A900BC26B1A81B002C9749 /* Build configuration list for PBXNativeTarget "testForAlef" */;
+			buildConfigurationList = F7A900BC26B1A81B002C9749 /* Build configuration list for PBXNativeTarget "TestForAlef" */;
 			buildPhases = (
 				F7A900A426B1A817002C9749 /* Sources */,
 				F7A900A526B1A817002C9749 /* Frameworks */,
@@ -88,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = testForAlef;
+			name = TestForAlef;
 			productName = testForAlef;
-			productReference = F7A900A826B1A817002C9749 /* testForAlef.app */;
+			productReference = F7A900A826B1A817002C9749 /* TestForAlef.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7A900A326B1A817002C9749 /* Build configuration list for PBXProject "testForAlef" */;
+			buildConfigurationList = F7A900A326B1A817002C9749 /* Build configuration list for PBXProject "TestForAlef" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7A900A726B1A817002C9749 /* testForAlef */,
+				F7A900A726B1A817002C9749 /* TestForAlef */,
 			);
 		};
 /* End PBXProject section */
@@ -133,7 +181,7 @@
 				F7A900B826B1A81B002C9749 /* LaunchScreen.storyboard in Resources */,
 				F7A900B526B1A81B002C9749 /* Assets.xcassets in Resources */,
 				F7A900B326B1A817002C9749 /* Main.storyboard in Resources */,
-				F7A900C826B1B95D002C9749 /* ChildTableViewCell.xib in Resources */,
+				F7A900C826B1B95D002C9749 /* TextFieldTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +194,7 @@
 			files = (
 				F7A900B026B1A817002C9749 /* ViewController.swift in Sources */,
 				F7A900AC26B1A817002C9749 /* AppDelegate.swift in Sources */,
-				F7A900C726B1B95D002C9749 /* ChildTableViewCell.swift in Sources */,
+				F7A900C726B1B95D002C9749 /* TextFieldTableViewCell.swift in Sources */,
 				F7A900AE26B1A817002C9749 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,7 +378,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7A900A326B1A817002C9749 /* Build configuration list for PBXProject "testForAlef" */ = {
+		F7A900A326B1A817002C9749 /* Build configuration list for PBXProject "TestForAlef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7A900BA26B1A81B002C9749 /* Debug */,
@@ -339,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7A900BC26B1A81B002C9749 /* Build configuration list for PBXNativeTarget "testForAlef" */ = {
+		F7A900BC26B1A81B002C9749 /* Build configuration list for PBXNativeTarget "TestForAlef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7A900BD26B1A81B002C9749 /* Debug */,
