@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  testForAlef
+//  TestForAlef
 //
 //  Created by Alexander Airumian on 28.07.2021.
 //

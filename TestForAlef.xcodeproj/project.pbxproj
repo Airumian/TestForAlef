@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D714F93626B3379D004A0C90 /* Kid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714F93526B3379D004A0C90 /* Kid.swift */; };
+		D714F93926B34613004A0C90 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714F93826B34613004A0C90 /* Parent.swift */; };
+		D714F93B26B35355004A0C90 /* AddChildButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714F93A26B35355004A0C90 /* AddChildButtonView.swift */; };
+		D714F93F26B35CAD004A0C90 /* RemoveChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714F93E26B35CAD004A0C90 /* RemoveChildTableViewCell.swift */; };
+		D714F94226B368A4004A0C90 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714F94126B368A4004A0C90 /* UIViewController+Extensions.swift */; };
 		F7A900AC26B1A817002C9749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A900AB26B1A817002C9749 /* AppDelegate.swift */; };
 		F7A900AE26B1A817002C9749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A900AD26B1A817002C9749 /* SceneDelegate.swift */; };
-		F7A900B026B1A817002C9749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A900AF26B1A817002C9749 /* ViewController.swift */; };
-		F7A900B326B1A817002C9749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A900B126B1A817002C9749 /* Main.storyboard */; };
+		F7A900B026B1A817002C9749 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A900AF26B1A817002C9749 /* MainViewController.swift */; };
 		F7A900B526B1A81B002C9749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A900B426B1A81B002C9749 /* Assets.xcassets */; };
 		F7A900B826B1A81B002C9749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A900B626B1A81B002C9749 /* LaunchScreen.storyboard */; };
 		F7A900C726B1B95D002C9749 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A900C526B1B95D002C9749 /* TextFieldTableViewCell.swift */; };
-		F7A900C826B1B95D002C9749 /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A900C626B1B95D002C9749 /* TextFieldTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D714F93526B3379D004A0C90 /* Kid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kid.swift; sourceTree = "<group>"; };
+		D714F93826B34613004A0C90 /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		D714F93A26B35355004A0C90 /* AddChildButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildButtonView.swift; sourceTree = "<group>"; };
+		D714F93E26B35CAD004A0C90 /* RemoveChildTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveChildTableViewCell.swift; sourceTree = "<group>"; };
+		D714F94126B368A4004A0C90 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		F7A900A826B1A817002C9749 /* TestForAlef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForAlef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A900AB26B1A817002C9749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A900AD26B1A817002C9749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7A900AF26B1A817002C9749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7A900B226B1A817002C9749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7A900AF26B1A817002C9749 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F7A900B426B1A81B002C9749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A900B726B1A81B002C9749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7A900B926B1A81B002C9749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7A900C526B1B95D002C9749 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
-		F7A900C626B1B95D002C9749 /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +50,6 @@
 		5F15CBD026B3337400FF3179 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				F7A900B126B1A817002C9749 /* Main.storyboard */,
 				F7A900B626B1A81B002C9749 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -53,7 +58,7 @@
 		5F15CBD126B3339C00FF3179 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F7A900AF26B1A817002C9749 /* ViewController.swift */,
+				F7A900AF26B1A817002C9749 /* MainViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -70,6 +75,7 @@
 		5F15CBD326B333DD00FF3179 /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				D714F93C26B353A2004A0C90 /* Views */,
 				5F15CBD426B333E300FF3179 /* TableViewCells */,
 			);
 			path = UILayer;
@@ -78,6 +84,7 @@
 		5F15CBD426B333E300FF3179 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				D714F93D26B35C87004A0C90 /* RemoveChildTableViewCell */,
 				5F15CBD526B333EE00FF3179 /* TextFieldTableViewCell */,
 			);
 			path = TableViewCells;
@@ -87,9 +94,41 @@
 			isa = PBXGroup;
 			children = (
 				F7A900C526B1B95D002C9749 /* TextFieldTableViewCell.swift */,
-				F7A900C626B1B95D002C9749 /* TextFieldTableViewCell.xib */,
 			);
 			path = TextFieldTableViewCell;
+			sourceTree = "<group>";
+		};
+		D714F93726B337CF004A0C90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D714F93526B3379D004A0C90 /* Kid.swift */,
+				D714F93826B34613004A0C90 /* Parent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D714F93C26B353A2004A0C90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D714F93A26B35355004A0C90 /* AddChildButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D714F93D26B35C87004A0C90 /* RemoveChildTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D714F93E26B35CAD004A0C90 /* RemoveChildTableViewCell.swift */,
+			);
+			path = RemoveChildTableViewCell;
+			sourceTree = "<group>";
+		};
+		D714F94026B36845004A0C90 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D714F94126B368A4004A0C90 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F7A9009F26B1A817002C9749 = {
@@ -113,8 +152,10 @@
 			children = (
 				F7A900AB26B1A817002C9749 /* AppDelegate.swift */,
 				F7A900AD26B1A817002C9749 /* SceneDelegate.swift */,
+				D714F93726B337CF004A0C90 /* Models */,
 				5F15CBD326B333DD00FF3179 /* UILayer */,
 				5F15CBD126B3339C00FF3179 /* ViewControllers */,
+				D714F94026B36845004A0C90 /* Extensions */,
 				5F15CBD026B3337400FF3179 /* Storyboards */,
 				5F15CBD226B333C700FF3179 /* SupportingFiles */,
 			);
@@ -180,8 +221,6 @@
 			files = (
 				F7A900B826B1A81B002C9749 /* LaunchScreen.storyboard in Resources */,
 				F7A900B526B1A81B002C9749 /* Assets.xcassets in Resources */,
-				F7A900B326B1A817002C9749 /* Main.storyboard in Resources */,
-				F7A900C826B1B95D002C9749 /* TextFieldTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,9 +231,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A900B026B1A817002C9749 /* ViewController.swift in Sources */,
+				F7A900B026B1A817002C9749 /* MainViewController.swift in Sources */,
+				D714F93926B34613004A0C90 /* Parent.swift in Sources */,
+				D714F93B26B35355004A0C90 /* AddChildButtonView.swift in Sources */,
 				F7A900AC26B1A817002C9749 /* AppDelegate.swift in Sources */,
+				D714F94226B368A4004A0C90 /* UIViewController+Extensions.swift in Sources */,
 				F7A900C726B1B95D002C9749 /* TextFieldTableViewCell.swift in Sources */,
+				D714F93F26B35CAD004A0C90 /* RemoveChildTableViewCell.swift in Sources */,
+				D714F93626B3379D004A0C90 /* Kid.swift in Sources */,
 				F7A900AE26B1A817002C9749 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,14 +246,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F7A900B126B1A817002C9749 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7A900B226B1A817002C9749 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7A900B626B1A81B002C9749 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -344,7 +380,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7W7SKQ88EW;
-				INFOPLIST_FILE = testForAlef/Info.plist;
+				INFOPLIST_FILE = TestForAlef/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,7 +399,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7W7SKQ88EW;
-				INFOPLIST_FILE = testForAlef/Info.plist;
+				INFOPLIST_FILE = TestForAlef/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
